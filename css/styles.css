@@ -1,0 +1,93 @@
+/*body { padding-top: 70px; }*/
+
+.navbar-brand h1{
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#brand_name {
+  height: auto;
+  margin:auto;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav {
+	/*background-color: white;*/
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -47px;
+}
+
+#main_content {
+	clear: both;
+}
+
+#our_menu_title {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.menu_desc {
+	height: 1000px;
+	background-color: #D3D3D3;
+	border: 15px solid white;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+.menu_desc p {
+	padding: 10px;
+}
+.menu_desc h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin:auto;
+}
+
+#back_to_top {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	left: 0px;
+	color: black;
+}
+
+hr {
+	border: None;
+	color: gray;
+	background-color: gray;
+	width: 80%;
+	height: 1px;
+	opacity: 0.8;
+	clear: both;
+}
+
+@media (min-width: 768px) {
+	  #brand_name {
+	  	padding-left: 0px;
+	  }
+	}
